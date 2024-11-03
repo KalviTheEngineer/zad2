@@ -125,3 +125,10 @@ Lewe okno zawiera kod źródłowy – prawe - podgląd przetworzonego tekstu.
 
 Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką.
 Listy nienumerowane definiujemy znakami: *,+,-
+
+
+## Wyróżnianie tekstu
+![Wyróżnianie](https://hackmd.io/_uploads/BJ4balrZyx.png)
+## Tabele
+![Tabele](https://hackmd.io/_uploads/rJA76gS-ke.png)
+Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
