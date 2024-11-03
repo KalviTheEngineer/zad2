@@ -107,3 +107,21 @@ W kolejnych latach podjęto prace w celu stworzenia standardu rozwiązania i tak
 - CommonMark,
 - GitHub Flavored Markdown (GFM),
 - Markdown Extra.
+## Podstawy składni
+
+Podany link: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) zawiera opis podstawowych elementów składni w języku angielskim. Poniżej zostanie przedstawiony ich krótki opis w języku polskim.
+## Definiowanie nagłówków
+
+W tym celu używamy znaku kratki.
+
+Lewe okno zawiera kod źródłowy – prawe - podgląd przetworzonego tekstu.
+
+![Nagłówki](https://hackmd.io/_uploads/H1nRjxHbJx.png)
+
+## Definiowanie list
+
+![Listy](https://hackmd.io/_uploads/r1QEngHWyl.png)
+
+
+Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką.
+Listy nienumerowane definiujemy znakami: *,+,-
