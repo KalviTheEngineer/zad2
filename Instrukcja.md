@@ -44,3 +44,21 @@ Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisywania dodat
 </html>
 ```
 ![PrzykładHTML](https://hackmd.io/_uploads/S1L_LeBWJe.png)
+Przykład kodu LaTeX i wygenerowanego pliku w formacie PDF:
+
+```latex
+\documentclass[]{letter}
+\usepackage{lipsum}
+\usepackage{polyglossia}
+\setmainlanguage{polish}
+\begin{document}
+\begin{letter}{Szanowny Panie XY}
+\address{Adres do korespondencji}
+\opening{}
+\lipsum[2]
+\signature{Nadawca}
+\closing{Pozdrawiam}
+\end{letter}
+\end{document}
+```
+![Latex](https://hackmd.io/_uploads/rkuYDlSWyl.png)
