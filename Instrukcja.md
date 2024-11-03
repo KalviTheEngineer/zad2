@@ -176,5 +176,11 @@ Gdyby podczas konwersji do formatu PDF pojawił się komunikat o niemożliwości
 ![ZMIENNE ŚRODOWISKOWE](https://hackmd.io/_uploads/ry-yZbBbyx.png)
 
 ![Edycja zmiennej środowiskowej](https://hackmd.io/_uploads/BJDkZWS-yg.png)
+Pod adresem [https://gitlab.com/mniewins66/templatemn.git](https://gitlab.com/mniewins66/templatemn.git) znajduje się przykładowy plik Markdown, z którego można wygenerować prezentację w formacie PDF, wykorzystując klasę LaTeX Beamer.
 
+W tym celu należy wydać polecenie z poziomu terminala:
+
+```bash
+$pandoc templateMN.md -t beamer -o prezentacja.pdf
+```
 
