@@ -42,3 +42,5 @@ Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisywania dodat
     <p>Jakiś paragraf tekstu</p>
 </body>
 </html>
+```
+![PrzykładHTML](https://hackmd.io/_uploads/S1L_LeBWJe.png)
