@@ -21,3 +21,10 @@ title: Instrukcja
    - [Edytory dedykowane](#edytory-dedykowane) ........................................................ 7
    - [Pandoc – system do konwersji dokumentów Markdown do innych formatów](#pandoc--system-do-konwersji-dokumentów-markdown-do-innych-formatów) ..... 8
 
+## Wstęp
+
+Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisywania dodatkowych informacji umieszczanych w plikach tekstowych. Z pośród najbardziej popularnych można wspomnieć o:
+
+1. **HTML** – służącym do opisu struktury informacji zawartych na stronach internetowych,
+2. **TeX (LaTeX)** – poznanym na zajęciach język do „profesjonalnego” składania tekstów,
+3. **XML (Extensible Markup Language)** – uniwersalnym języku znaczników przeznaczonym do reprezentowania różnych danych w ustrukturalizowany sposób.
