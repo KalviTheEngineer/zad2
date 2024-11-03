@@ -28,3 +28,17 @@ Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisywania dodat
 1. **HTML** – służącym do opisu struktury informacji zawartych na stronach internetowych,
 2. **TeX (LaTeX)** – poznanym na zajęciach język do „profesjonalnego” składania tekstów,
 3. **XML (Extensible Markup Language)** – uniwersalnym języku znaczników przeznaczonym do reprezentowania różnych danych w ustrukturalizowany sposób.
+
+## Przykład kodu HTML i jego interpretacja w przeglądarce:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Przykład</title>
+</head>
+<body>
+    <p>Jakiś paragraf tekstu</p>
+</body>
+</html>
