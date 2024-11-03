@@ -63,3 +63,47 @@ Przykład kodu LaTeX i wygenerowanego pliku w formacie PDF:
 \end{document}
 ```
 ![Latex](https://hackmd.io/_uploads/rkp4OxBZkx.png)
+Przykład kodu XML – fragment dokumentu SVG (Scalar Vector Graphics):
+
+```xml
+<!DOCTYPE html>
+<html>
+<body>
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+</body>
+</html>
+```
+W tym przypadku mamy znacznik `<circle>` opisujący parametry koła, który może być właściwie zinterpretowany przez dedykowaną aplikację (np. przeglądarki www). 
+
+Jako ciekawostkę można podać fakt, że również pakiet MS Office wykorzystuje format XML do przechowywania informacji o dodatkowych parametrach formatowania danych. Na przykład pliki z rozszerzeniem `.docx` to nic innego jak spakowane algorytmem zip katalogi z plikami XML.
+Przykład rozpakowania zawartości pliku `test.docx` poleceniem: `unzip`
+
+```bash
+$ unzip -l test.docx
+Archive: test.docx
+Length   Date    Time    Name
+--------- ---------- ----- ----
+573      2022-03-20 08:55 _rels/.rels
+731      2022-03-20 08:55 docProps/core.xml
+508      2022-03-20 08:55 docProps/app.xml
+531      2022-03-20 08:55 word/_rels/document.xml.rels
+1288     2022-03-20 08:55 word/document.xml
+2429     2022-03-20 08:55 word/styles.xml
+853      2022-03-20 08:55 word/fontTable.xml
+257      2022-03-20 08:55 word/settings.xml
+1374     2022-03-20 08:55 [Content_Types].xml
+```
+
+Wszystkie te języki znaczników cechują się rozbudowaną i złożoną składnią, dlatego do ich edycji wymagają najczęściej dedykowanych narzędzi w postaci specjalizowanych edytorów.
+
+By wyeliminować powyższą niedogodność, powstał **Markdown** - uproszczony język znaczników służący do formatowania dokumentów tekstowych (bez konieczności używania specjalizowanych narzędzi). Dokumenty w tym formacie można bardzo łatwo konwertować do wielu innych formatów: np. HTML, PDF, PS (PostScript), EPUB, XML i wiele innych.
+
+Format ten jest powszechnie używany do tworzenia plików `README.md` (w projektach open source) i powszechnie obsługiwany przez serwery Gita. Język ten został stworzony w 2004 r., a jego twórcami byli John Gruber i Aaron Swartz.
+
+W kolejnych latach podjęto prace w celu stworzenia standardu rozwiązania i tak w 2016 r. opublikowano dokument [RFC 7764](https://datatracker.ietf.org/doc/html/rfc7764), który zawiera opis kilku odmian tegoż języka:
+
+- CommonMark,
+- GitHub Flavored Markdown (GFM),
+- Markdown Extra.
