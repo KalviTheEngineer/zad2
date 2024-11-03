@@ -160,5 +160,21 @@ Pracę nad dokumentami w formacie Markdown (rozszerzenie .md) można wykonywać 
 
 ![coś](https://hackmd.io/_uploads/SJDzkWHbkl.png)
 
+## Pandoc – system do konwersji dokumentów Markdown do innych formatów
+
+Jest to oprogramowanie typu open source służące do konwertowania dokumentów pomiędzy różnymi formatami. 
+
+Pod poniższym linkiem można obejrzeć  [przykłady użycia Pandoc](https://pandoc.org/demos.html)
+
+Oprogramowanie to można pobrać spod adresu: [Instalacja Pandoc](https://pandoc.org/installing.html)
+
+Jeżeli chcemy konwertować do formatu LaTeX i PDF, trzeba doinstalować oprogramowanie składu LaTeX (np. na Windows najlepiej sprawdzi się [MikTeX](https://miktex.org/))
+
+Gdyby podczas konwersji do formatu PDF pojawił się komunikat o niemożliwości znalezienia programu `pdflatex`, rozwiązaniem jest wskazanie w zmiennej środowiskowej `PATH` miejsca jego położenia.
+![Pandoc](https://hackmd.io/_uploads/B1yVgbH-yg.png)
+
+![ZMIENNE ŚRODOWISKOWE](https://hackmd.io/_uploads/ry-yZbBbyx.png)
+
+![Edycja zmiennej środowiskowej](https://hackmd.io/_uploads/BJDkZWS-yg.png)
 
 
