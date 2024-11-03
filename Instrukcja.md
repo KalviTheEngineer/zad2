@@ -43,7 +43,8 @@ Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisywania dodat
 </body>
 </html>
 ```
-![PrzykładHTML](https://hackmd.io/_uploads/S1L_LeBWJe.png)
+![PrzykładHTML](https://hackmd.io/_uploads/H1uN_eBb1l.png)
+
 Przykład kodu LaTeX i wygenerowanego pliku w formacie PDF:
 
 ```latex
@@ -61,4 +62,4 @@ Przykład kodu LaTeX i wygenerowanego pliku w formacie PDF:
 \end{letter}
 \end{document}
 ```
-![Latex](https://hackmd.io/_uploads/rkuYDlSWyl.png)
+![Latex](https://hackmd.io/_uploads/rkp4OxBZkx.png)
