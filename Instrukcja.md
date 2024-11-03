@@ -158,7 +158,7 @@ Pracę nad dokumentami w formacie Markdown (rozszerzenie .md) można wykonywać 
 2. [HackMD](https://hackmd.io) / online editor
 3. Visual Studio Code z wtyczką „markdown preview”
 
-![coś](https://hackmd.io/_uploads/SJDzkWHbkl.png)
+![Visual Studio Code](https://hackmd.io/_uploads/SJDzkWHbkl.png)
 
 ## Pandoc – system do konwersji dokumentów Markdown do innych formatów
 
