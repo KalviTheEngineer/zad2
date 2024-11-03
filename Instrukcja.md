@@ -132,3 +132,33 @@ Listy nienumerowane definiujemy znakami: *,+,-
 ## Tabele
 ![Tabele](https://hackmd.io/_uploads/rJA76gS-ke.png)
 Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
+## Odnośniki do zasobów
+```
+[odnośnik do zasobów](http://www.gazeta.pl)  
+[odnośnik do pliku](LICENSE.md)  
+[odnośnik do kolejnego zasobu][1]  
+[1]: http://google.com  
+```
+## Obrazki
+```
+![alt text](https://server.com/images/icon48.png "Logo 1") – obrazek z zasobów internetowych  
+![](logo.png) – obraz z lokalnych zasobów
+
+```
+## Kod źródłowy dla różnych języków programowania
+![Kod źródłowy](https://hackmd.io/_uploads/HyM_AeBbkx.png)
+## Tworzenie spisu treści na podstawie nagłówków
+![Spis treści](https://hackmd.io/_uploads/SkPh0xrbyl.png)
+
+## Edytory dedykowane
+
+Pracę nad dokumentami w formacie Markdown (rozszerzenie .md) można wykonywać w dowolnym edytorze tekstowym. Aczkolwiek istnieje wiele dedykowanych narzędzi:
+
+1. [marktext](https://github.com/marktext/marktext)
+2. [HackMD](https://hackmd.io) / online editor
+3. Visual Studio Code z wtyczką „markdown preview”
+
+![coś](https://hackmd.io/_uploads/SJDzkWHbkl.png)
+
+
+
